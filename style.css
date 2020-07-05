@@ -1,0 +1,100 @@
+html {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 18px;
+    scroll-behavior: smooth;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: lightyellow;
+    width: 100vw;
+    padding: 0 0 0 50px;
+    color: #FF4700FF;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    color: #FF4700FF;
+  }
+  h3 {
+    color: #FF4700FF;
+  }
+  body {
+    color: #00203FFF;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  #nav-bar {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 0 0 0 40px;
+    text-decoration: none;
+    color: #00203FFF;
+  }
+  
+  /*I'm a fking genius for using #sec1 to push nav bar to the right */
+  #sec1 {
+    margin: 0 0 0 1270px;
+  }
+  
+  }
+  #email {
+    width: 200px;
+    height 200px;
+  }
+  ul {
+    font-style: italic;
+    text-align: left;
+    padding: 0 0 0 80px;
+    color: #00203FFF;
+  }
+  @media (min-width: 800px) {
+    div {
+      padding: 0 400px 0 400px;
+    }
+  }
+  div {
+    font-size: 23px;
+    line-height: 1.7em;
+  }
+  #box-container {
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    flex-direction: row;
+    align-items: center;
+  }
+  #box-1 {
+    width: 10px;
+    background-color: #F95700BF;
+    flex-grow: 1;
+    height: 300px;
+    box-shadow: -20px -10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  #box-2 {
+    width: 10px;
+    background-color: #F95700BF;
+    flex-grow: 1;
+    height: 300px;
+    box-shadow: -20px -10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  #box-3 {
+    width: 10px;
+    background-color: #F95700BF;
+    flex-grow: 1;
+    height: 300px;
+    box-shadow: -20px -10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  
